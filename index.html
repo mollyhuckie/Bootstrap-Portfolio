@@ -3,25 +3,32 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>About | Your Name</title>
+  <title>About | Molly Huckie</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-
+<div class="container-fluid">
+  <div class="row">
   <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+      <div class="col-md-5 col-sm-7"><a href="index.html" id="logo">Molly Huckie</a></div>
+      <div class="col-md-3"></div>
+      <nav class="col-md-7 col-sm-5">
+      	<div class="navBtns">
+            <div class="col-md-2"><a href="index.html">About</a></div>
+             <div class="col-md-2"><a href="portfolio.html">Portfolio</a></div>
+            <div class="col-md-2"> <a href="contact.html">Contact</a></div>
+        </div>
+     </div>
       </nav>
-    </div>
   </header>
+  </div>
+  </div>
 
-  <div id="main-container" class="container">
+  <div id="main-container" class="fluid">
+  <div class="col-md-8">
     <section class="main-section">
       <h1>About Me</h1>
 
@@ -32,9 +39,11 @@
       <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
 
     </section>
+    
+    </div>
 
     <section class="sidebar">
-      <div id="connect">
+      <div id="connect" class="col-md-4">
         <h2>Connect with Me</h2>
 
         <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
@@ -42,6 +51,8 @@
         <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
       </div>
     </section>
+  </div>
+  </div>
   </div>
 
   <footer>
